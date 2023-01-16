@@ -1,6 +1,6 @@
 export default function Member() {
     return (
-      <h1>Member</h1>
+      <h1>Medlem</h1>
     );
   }
   

@@ -5,7 +5,10 @@ const Footer = () => {
 
     return (
   <footer className="d-flex flex-column gap-2 align-items-center">
-   <div></div>
+   <div>
+    <button className="btn">Styre login</button>
+    <button className="btn">Medlem login</button>
+   </div>
    <span className="footerHr"></span>
    <div className="p-4">
     {copyright}
