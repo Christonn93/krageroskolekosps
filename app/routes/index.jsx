@@ -1,5 +1,5 @@
 export default function Index() {
   return (
-    <h1>Hello</h1>
+    <h1>Hva skjer</h1>
   );
 }

@@ -1,6 +1,6 @@
 export default function Band() {
     return (
-      <h1>Band</h1>
+      <h1>Om Korpset</h1>
     );
   }
   

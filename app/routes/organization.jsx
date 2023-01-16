@@ -1,6 +1,6 @@
 export default function Organization() {
     return (
-    <h1>Organization</h1>
+    <h1>Om Styret</h1>
     );
   }
   
