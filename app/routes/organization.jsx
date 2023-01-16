@@ -1,8 +1,6 @@
 export default function Organization() {
     return (
-     <>
-     <h1>Hello</h1>
-     </>
+    <h1>Organization</h1>
     );
   }
   

@@ -5,3 +5,8 @@ header {
 .logo {
     max-width: 650px;
 }
+
+.button-navigation {
+    background: #44616C;
+    color: white;
+}

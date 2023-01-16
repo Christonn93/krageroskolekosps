@@ -12,11 +12,24 @@ const Header = () => {
             </button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div className="navbar-nav gap-5">
-                <Link className="nav-link active" aria-current="page" to="/">Home</Link>
-                <Link className="nav-link" to="/about">Om oss</Link>
-                <Link className="nav-link" to="/photos">Bilder</Link>
-                <Link className="nav-link" to="/organization">Styret</Link>
-                <Link className="nav-link" to="/nmf">NMS</Link>
+                <div className='d-flex gap-3'>
+                <Link className="btn button-navigation" aria-current="page" to="/">Hva skjer</Link>
+                <Link className="btn button-navigation" to="/member">Medlem</Link>
+                <Link className="btn button-navigation" to="/photos">Bilder</Link>
+                <Link className="btn button-navigation" to="/nmf">NMS</Link>
+                </div>
+                <div className=''>
+                <div className="dropdown">
+                  <button className="btn button-navigation dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Om oss
+                  </button>
+                  <ul className="dropdown-menu dropdown-menu-dark">
+                    <li><Link className="dropdown-item" to="/band">Om Korpset</Link></li>
+                    <li><Link className="dropdown-item" to="/organization">Om Styret</Link></li>
+                    <li><Link className="dropdown-item" to="/contact">Kontakt oss</Link></li>
+                  </ul>
+                </div>
+                </div>
               </div>
             </div>
           </div>
