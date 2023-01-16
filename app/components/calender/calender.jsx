@@ -57,7 +57,7 @@ const Calender = () => {
 
 
   display.push(
-   <div className="card text-bg-info mb-3">
+   <div className="card mb-3">
     <div className="card-header">
      <div id="calender">
       <p>{convertToName}</p>
