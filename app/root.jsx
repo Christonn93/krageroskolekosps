@@ -6,12 +6,15 @@ import bootstrapCSS from "bootstrap/dist/css/bootstrap.min.css";
 import footerStyle from "~/components/footer/footer.css";
 import headerStyle from "~/components/header/header.css";
 import sidebarStyle from "~/components/supporters/sidebarStyle.css"
+import photoGalleryStyle from '~/components/photoGallery/photoGalleryStyle.css'
+import cardStyle from "~/components/about/organization/cardStyle.css";
+import calenderStyle from "./components/calender/calender.css";
 
 // Components import
 import Footer from "~/components/footer/footer";
 import Header from "./components/header/header";
 import RightSide from "./components/supporters/rightSide";
-import LeftSide from "./components/supporters/leftSide";
+import Calender from "./components/calender/calender";
 
 export const meta = () => ({
  charset: "utf-8",
@@ -32,7 +35,8 @@ export default function App() {
      <div className="container-fluid mx-3">
       <div className="row gy-4">
        <div className="col-2">
-        <LeftSide />
+       <h3>Hva skjer?</h3>
+        <Calender />
        </div>
        <div className="col-8">
         <Outlet />
@@ -75,5 +79,17 @@ export function links() {
    rel: "stylesheet",
    href: sidebarStyle,
   },
+  {
+    rel: "stylesheet",
+    href: photoGalleryStyle,
+   },
+   {
+    rel: "stylesheet",
+    href: cardStyle,
+   },
+   {
+    rel: "stylesheet",
+    href: calenderStyle,
+   },
  ];
 }

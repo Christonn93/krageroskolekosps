@@ -1,0 +1,5 @@
+.card-size {
+    min-width: 16rem;
+    width: 100%;
+    max-width: 20rem;
+}

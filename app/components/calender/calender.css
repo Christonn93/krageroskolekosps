@@ -1,0 +1,19 @@
+#calender{
+    height: max-content;
+    width: max-content;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  #calender p{
+    font-family: arial;
+    margin: 15px;
+  }
+  #calender #calender-day,#calender-month-year{
+    font-size: 20px;
+  }
+  #calender #calender-date{
+    font-size: 50px;
+    font-weight: bold;
+  }

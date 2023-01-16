@@ -13,10 +13,10 @@ const Header = () => {
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div className="navbar-nav gap-5">
                 <div className='d-flex gap-3'>
-                <Link className="btn button-navigation" aria-current="page" to="/">Hva skjer</Link>
+                <Link className="btn button-navigation" aria-current="page" to="/">Hjem</Link>
                 <Link className="btn button-navigation" to="/member">Medlem</Link>
                 <Link className="btn button-navigation" to="/photos">Bilder</Link>
-                <Link className="btn button-navigation" to="/nmf">NMS</Link>
+                <Link className="btn button-navigation" to="/nmf">NMF</Link>
                 </div>
                 <div className=''>
                 <div className="dropdown">
