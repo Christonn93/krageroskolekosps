@@ -18,7 +18,7 @@ import Calender from "./components/calender/calender";
 
 export const meta = () => ({
  charset: "utf-8",
- title: "New Remix App",
+ title: "Kragerø skole korps",
  viewport: "width=device-width,initial-scale=1",
 });
 
